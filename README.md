@@ -7,7 +7,7 @@ Module 21 Challenge
 
 The purpose of this analysis was to create a deep learning model  that serves as a tool that can help the nonprofit foundation Alphabet Soup to select the applicants for funding with the best chance of success in their ventures. The model aims to classify whether the funding provided will be used effectively (IS_SUCCESSFUL: Was the money used effectively) based on various features provided in the dataset such as APPLICATION_TYPE—Alphabet Soup application type, AFFILIATION—Affiliated sector of industry,CLASSIFICATION—Government organization classification, USE_CASE—Use case for funding, ORGANIZATION—Organization type, STATUS—Active status, INCOME_AMT—Income classification, SPECIAL_CONSIDERATIONS—Special considerations for application, ASK_AMT—Funding amount requested
 
-![Alt Text](images/Data_Frame.png)
+![Alt Text](./Images/Data_Frame.png)
 
 ## Results
 
@@ -26,7 +26,7 @@ I was not able to achieve an accuracy higher than 75% with non of my attempts. B
 - Neurons: 80 in 1 hidden layer with activation function 'relu'
 - Result: Loss - 0.5809, Accuracy - 0.7285
 
-![Alt Text](images/Original_Model.png)
+![Alt Text](./Images/Original_Model.png)
 
 ### Optimization Attempt 1: Dropping More Columns
 
@@ -41,7 +41,7 @@ I was not able to achieve an accuracy higher than 75% with non of my attempts. B
 - Neurons: 80 in 1 hidden layer with activation function 'relu' (mantained the same as the original model)
 - Result: Loss - 0.5556, Accuracy - 0.7300
 
-![Alt Text](images/Attempt_1.png)
+![Alt Text](./Images/Attempt_1.png)
 
 ### Optimization Attempt 2: Creating More Bins for Rare Occurrences
 
@@ -58,7 +58,7 @@ I was not able to achieve an accuracy higher than 75% with non of my attempts. B
 - Neurons: 80 in 1 hidden layer with activation function 'relu'(mantained the same as the original model)
 - Result: Loss - 0.5602, Accuracy - 0.7276
 
-![Alt Text](images/Attempt_2.png)
+![Alt Text](./Images/Attempt_2.png)
 
 ### Optimization Attempt 3: More Hidden Layers, Neurons & Activation Functions
 
@@ -73,7 +73,7 @@ I was not able to achieve an accuracy higher than 75% with non of my attempts. B
 - Neurons: 200 in 4 hidden layers - (50, 'relu'), (50, 'relu'), (50, 'tanh'), (50, 'tanh')
 - Result: Loss - 0.5574, Accuracy - 0.7289
 
-![Alt Text](images/Attempt_3.png)
+![Alt Text](./Images/Attempt_3.png)
 
 ## Summary
 
