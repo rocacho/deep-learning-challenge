@@ -85,7 +85,7 @@ Considering the above mentioned information the best results I got was a Loss of
 
 For this classification problem, we have to manage a very complex data set. A good first alternative that poped into my maind was to use decision trees, due to the visualization it porvides a good process but it could be very complex to execute and explain. Maybe a model such as Random Forest could help in this case, the pros and cons of Random Forest as seen in clas are:
 
-###Random Forest: Generate n number of trees, an take votes for each prediction
+### Random Forest: Generate n number of trees, an take votes for each prediction
 
 #### Pros:
 - You dont need to standarize your data
